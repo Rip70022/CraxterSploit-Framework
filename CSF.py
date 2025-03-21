@@ -401,7 +401,7 @@ def main():
         display_banner()
         display_options()
         
-        command = input(f"\n{Fore.RED}>>craxtersploit<<:~# {Style.RESET_ALL}")
+        command = input(f"\n{Fore.BLUE}「{Style.RESET_ALL}{Fore.LIGHTRED_EX}☠{Style.RESET_ALL}{Fore.BLUE}」{Style.RESET_ALL}{Fore.BLUE}〔{Style.RESET_ALL}{Fore.RED}CraxterSploit{Style.RESET_ALL}{Fore.BLUE}〕{Style.RESET_ALL}{Fore.GREEN}➜{Style.RESET_ALL}")
         
         if command.lower() == "exit":
             print(f"{Fore.YELLOW}[*] Exiting CraxterSploit...{Style.RESET_ALL}")
